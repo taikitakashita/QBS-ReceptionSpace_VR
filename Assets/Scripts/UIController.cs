@@ -5,7 +5,10 @@ using UnityEngine;
 public class UIController : MonoBehaviour {
 
     [SerializeField]
-    GameObject m_canvas;
+    GameObject m_canvas1;
+
+    [SerializeField]
+    GameObject m_canvas2;
 
     [SerializeField]
     GameObject m_laserPointer;
@@ -22,13 +25,15 @@ public class UIController : MonoBehaviour {
     {
         if (OVRInput.Get(OVRInput.RawButton.Back) && m_UIStatus == true)
         {
-            m_canvas.SetActive(false);
+            m_canvas1.SetActive(false);
+            m_canvas2.SetActive(false);
             m_laserPointer.SetActive(false);
             m_UIStatus = false;
         }
         else if (OVRInput.Get(OVRInput.RawButton.Back) && m_UIStatus == false)
         {
-            m_canvas.SetActive(true);
+            m_canvas1.SetActive(true);
+            m_canvas2.SetActive(true);
             m_laserPointer.SetActive(true);
             m_UIStatus = true;
         }
