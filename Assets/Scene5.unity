@@ -835,6 +835,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1048765877}
     m_Modifications:
+    - target: {fileID: 114050475030800298, guid: b367e5903e4cbee47a0991adfa74b230,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224800122578043304, guid: b367e5903e4cbee47a0991adfa74b230,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -948,6 +953,31 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.x
       value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 114050475030800298, guid: b367e5903e4cbee47a0991adfa74b230,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114050475030800298, guid: b367e5903e4cbee47a0991adfa74b230,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114050475030800298, guid: b367e5903e4cbee47a0991adfa74b230,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 79520919}
+    - target: {fileID: 114050475030800298, guid: b367e5903e4cbee47a0991adfa74b230,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchScene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114050475030800298, guid: b367e5903e4cbee47a0991adfa74b230,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b367e5903e4cbee47a0991adfa74b230, type: 2}
@@ -1224,7 +1254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -40, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.2, y: 3}
+  m_AnchoredPosition: {x: -1.2, y: 2.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1017538581
@@ -2091,6 +2121,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1048765877}
     m_Modifications:
+    - target: {fileID: 114900504536689462, guid: 5c63c00596adbbe48939b485d083eae0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224147288211252582, guid: 5c63c00596adbbe48939b485d083eae0,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -2204,6 +2239,31 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.x
       value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 114900504536689462, guid: 5c63c00596adbbe48939b485d083eae0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114900504536689462, guid: 5c63c00596adbbe48939b485d083eae0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114900504536689462, guid: 5c63c00596adbbe48939b485d083eae0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 79520919}
+    - target: {fileID: 114900504536689462, guid: 5c63c00596adbbe48939b485d083eae0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchScene4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114900504536689462, guid: 5c63c00596adbbe48939b485d083eae0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c63c00596adbbe48939b485d083eae0, type: 2}
